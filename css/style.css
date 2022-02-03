@@ -1,1 +1,108 @@
+nav li{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+	margin: 10px 0;
+	background-color: #D8E7E9;
+    color: #000;
+    font-size: 25px;
+	padding:20px;
+	display: inline-block;
+    text-align: center;
+	vertical-align: bottom;
+	width: 20%;
+	margin: 10px 0;
+    border: 2px solid #88808d79;
+	border-radius: 8px;  
+}
 
+nav a{
+	text-decoration: none;
+	color: #565451;
+}
+
+nav a:hover{
+	text-decoration: #0B7DC3 underline;
+}
+
+.active{
+	font-weight: bold;
+	font-size: 28px;
+    background-color: #B4E1FC;
+	border: 2px solid #0B7DC3;
+}
+
+body {background-color: #079ee417;;}
+
+.skinpic{
+	height: 290px;
+	width: auto;
+	border: 10px solid #6cb2be;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.skin img:nth-child(3n) {
+	background-color: #98e2de;
+	border-style: solid;
+}
+
+.skinpic:hover{
+	box-shadow: 8px 8px 9px #42444e;
+	border: 4px dotted #267fe4;
+	transform: scale(1.1);
+    box-shadow: 0px 0px 9px 9px #75c3c9;
+}
+/* should the pages have an even theme? */
+/* what about the arrangement of text? */
+.basepic{
+	height: 290px;
+	width: auto;
+	border: 10px solid #6cb2be;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.base img:nth-child(3n) {
+	background-color: #98e2de;
+	border-style: solid;
+}
+
+.basepic:hover{
+	box-shadow: 8px 8px 9px #42444e;
+	border: 4px dotted #267fe4;
+	transform: scale(1.1);
+}
+
+.sunnypic{
+	height: 290px;
+	width: auto;
+	border: 10px solid #6cb2be;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 20px;
+    filter: brightness(0.90);
+}
+
+
+.sunnypic:hover{
+	box-shadow: 8px 8px 9px #42444e;
+	border: 4px dotted #267fe4;
+	transform: scale(1.1);
+}
+
+.helperpic{
+	height: 290px;
+	width: auto;
+	border: 10px solid #6cb2be;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+
+.helperpic:hover{
+	box-shadow: 8px 8px 9px #42444e;
+	border: 4px dotted #267fe4;
+	transform: scale(1.1);
+}

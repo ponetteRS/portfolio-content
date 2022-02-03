@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<!-- want above on all 4 html pages -->
 
-<link rel="icon" href="images/favicon.png">
-<img src="images/book.png" alt="several books stacked up" width="200"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-When I was figuring out my skin care routine something that really helped
-me was finding information from other people interested in skin care. 
-Some of the resources that I found really helpful were communities on 
-reddit. The reason why I found read reddit a very useful resource was 
-because I was able to get tips and advice from people first hand such as
-new websites and other addditional resource hubs. Additionally since posts 
-can reach many people I was able to find out differing opinions and tips 
-for finding a derm. I also found a sense of community on the skin care page 
-and I felt like I was able to have a sense of camaraderie going into the 
-skin care process as a newbie.
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <!-- below need to add style and make sure it goes on guthub -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Resources</title>
+</head>
 
-Something that I would advise against is taking information as a fact online 
-running it through a fact checker like Snopes. The pages I used were nice for 
-basic skin care like cleansers and how to find dermswhich did not cover 
-medical concerns. Even for basic skin care, opinions vary so I try not take 
-person's idea as a fact and make sure to always be open to new information as 
-well as strive to get reputable sources for things like medical questions. 
+<body>
+    <header>
+		<nav>
+			<ul>
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				<li><a href = "index.html">Home</a></li>
+                <li><a href = "basics.html">Basics</a></li>
+                <li><a href = "sun.html">Sun</a></li>
+                <li class="active"><a href = "resources.html" >Resources</a></li>
+			</ul>
+		</nav>
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<h1 id="main">Resources</h1>
+	</header>
 
+    <main>
+        <img class = "helperpic" src="images/book.png" alt="several books stacked up" width="200"/>
+        <p>
+            When I was figuring out my skin care routine something that really helped
+            me was finding information from other people interested in skin care. 
+            Some of the resources that I found really helpful were communities on 
+            reddit. The reason why I found read reddit a very useful resource was 
+            because I was able to get tips and advice from people first hand such as
+            new websites and other addditional resource hubs. Additionally since posts 
+            can reach many people I was able to find out differing opinions and tips 
+            for finding a derm. I also found a sense of community on the skin care page 
+            and I felt like I was able to have a sense of camaraderie going into the 
+            skin care process as a newbie.
+        </p>
 
-<footer>
-    <p>Ponette Rubio &copy; 2022</p>
-</footer>
+        <p>
+            Something that I would advise against is taking information as a fact online 
+            running it through a fact checker like Snopes. The pages I used were nice for 
+            basic skin care like cleansers and how to find dermswhich did not cover 
+            medical concerns. Even for basic skin care, opinions vary so I try not take 
+            person's idea as a fact and make sure to always be open to new information as 
+            well as strive to get reputable sources for things like medical questions. 
+        </p>
+    </main>
+    <footer>
+        <p>Ponette Rubio &copy; 2022</p>
+    </footer>
+</body>
+</html>
+
