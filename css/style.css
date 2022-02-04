@@ -64,7 +64,7 @@ p {
 .basepic {
     height: 300px;
     width: auto;
-    border: 10px solid #5abcce;
+    border: 10px dashed #5abcce;
     padding: 15px;
     border-radius: 10px;
     margin: 20px;
