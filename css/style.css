@@ -1,107 +1,132 @@
-nav li{
-	margin: 10px 0;
-	background-color: #D8E7E9;
+nav li {
+    margin: 10px 0;
+    background-color: #D8E7E9;
     color: #000;
     font-size: 25px;
-	padding:20px;
-	display: inline-block;
+    padding:20px;
+    display: inline-block;
     text-align: center;
-	vertical-align: bottom;
-	width: 20%;
-	margin: 10px 0;
+    vertical-align: bottom;
+    width: 20%;
+    margin: 10px 0;
     border: 2px solid #88808d79;
-	border-radius: 8px;  
+    border-radius: 8px;
 }
 
-nav a{
-	text-decoration: none;
-	color: #565451;
+nav a {
+    text-decoration: none;
+    color: #565451;
 }
 
-nav a:hover{
-	text-decoration: #0B7DC3 underline;
+nav a:hover {
+    text-decoration: #0B7DC3 underline;
 }
 
-.active{
-	font-weight: bold;
-	font-size: 28px;
+.active {
+    font-weight: bold;
+    font-size: 28px;
     background-color: #B4E1FC;
-	border: 2px solid #0B7DC3;
+    border: 2px solid #0B7DC3;
 }
 
-body {background-color: #079ee417;;}
+.body {
+    background-color: #079ee417;
+    padding: 15px;
+}
 
-.skinpic{
-	height: 290px;
-	width: auto;
-	border: 10px solid #6cb2be;
-	padding: 15px;
-	border-radius: 10px;
-	margin: 20px;
+p {
+    line-height: 100%;
+    font-size: large;
+    padding: 15px;
+}
+
+.skinpic {
+    height: 290px;
+    width: auto;
+    border: 10px solid #6cb2be;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 60px;
 }
 
 .skin img:nth-child(3n) {
-	background-color: #98e2de;
-	border-style: solid;
+    background-color: #98e2de;
+    border-style: solid;
 }
 
-.skinpic:hover{
-	box-shadow: 8px 8px 9px #42444e;
-	border: 4px dotted #267fe4;
-	transform: scale(1.1);
+.skinpic:hover {
+    box-shadow: 8px 8px 9px #42444e;
+    border: 4px dotted #267fe4;
+    transform: scale(1.1);
     box-shadow: 0px 0px 9px 9px #75c3c9;
 }
-/* should the pages have an even theme? */
-/* what about the arrangement of text? */
-.basepic{
-	height: 290px;
-	width: auto;
-	border: 10px solid #6cb2be;
-	padding: 15px;
-	border-radius: 10px;
-	margin: 20px;
-}
 
-.base img:nth-child(3n) {
-	background-color: #98e2de;
-	border-style: solid;
-}
-
-.basepic:hover{
-	box-shadow: 8px 8px 9px #42444e;
-	border: 4px dotted #267fe4;
-	transform: scale(1.1);
-}
-
-.sunnypic{
-	height: 290px;
-	width: auto;
-	border: 10px solid #6cb2be;
-	padding: 15px;
-	border-radius: 10px;
-	margin: 20px;
+.basepic {
+    height: 300px;
+    width: auto;
+    border: 10px solid #5abcce;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
     filter: brightness(0.90);
 }
 
-
-.sunnypic:hover{
-	box-shadow: 8px 8px 9px #42444e;
-	border: 4px dotted #267fe4;
-	transform: scale(1.1);
+.base img:nth-child(3n) {
+    background-color: #98e2de;
+    border-style: solid;
 }
 
-.helperpic{
-	height: 290px;
-	width: auto;
-	border: 10px solid #6cb2be;
-	padding: 15px;
-	border-radius: 10px;
-	margin: 20px;
+.basepic:hover {
+    box-shadow: 8px 8px 9px #778eff;
+    border: 4px dotted #646668;
+    transform: scale(1.2);
+    filter: brightness(1);
+}
+
+.sunnypic {
+    height: 290px;
+    width: auto;
+    border: 10px solid #6cb2be;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px;
+    filter: brightness(0.90);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sunny img:nth-child(3n) {
+    background-color: #98e2de;
+    border-style: solid;
 }
 
 
-.helperpic:hover{
-	box-shadow: 8px 8px 9px #42444e;
-	border: 4px dotted #267fe4;
-	transform: scale(1.1);
+.sunnypic:hover {
+    box-shadow: 8px 8px 9px #e0992e;
+    border: 4px double #7a591a;
+    transform: scale(1.1);
+}
+
+.helperpic {
+    height: 290px;
+    width: auto;
+    border: 10px ridge #38d4f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helper img:nth-child(3n) {
+    background-color: #1ed4ec;
+    border-style: solid;
+}
+
+.helperpic:hover {
+    box-shadow: 8px 8px 9px #249397;
+    border: 8px dotted #09889e;
+    transform: scale(1.1);
 }
