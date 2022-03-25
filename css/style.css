@@ -34,10 +34,19 @@ nav a:hover {
     padding: 15px;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
 p {
     line-height: 100%;
     font-size: large;
     padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .skinpic {
@@ -69,6 +78,8 @@ p {
     border-radius: 10px;
     margin: 20px;
     filter: brightness(0.90);
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .base img:nth-child(3n) {
@@ -118,6 +129,24 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (prefers-reduced-motion: reduce){
+
+    .helperpic {
+        animation-duration: 0s;
+    }
 }
 
 .helper img:nth-child(3n) {
@@ -129,4 +158,9 @@ p {
     box-shadow: 8px 8px 9px #249397;
     border: 8px dotted #09889e;
     transform: scale(1.1);
+}
+
+body{
+    background-image: url('../images/white_background.png');
+    background-size: auto;
 }

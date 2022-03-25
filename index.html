@@ -10,10 +10,16 @@
     <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap" rel="stylesheet">
+    <!-- above is cop and paste from Google fonts -->
+<script src="https://kit.fontawesome.com/7c0f84b9d1.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!-- above is to use fonts awesome -->
     <title>A Journey Into Skin Care</title>
 </head>
 
 <body>
+    <i class="fa-regular fa-avocado"></i>
     <a class = "skip" href="#main">Skip to Main Content</a>
     <header>
         <nav>
@@ -51,12 +57,6 @@
             <img src="images/acne.jpeg" class = "skinpic" alt="A woman with acne pigmentation and eyes closed" width="200"/>
             <img src="images/bottle.jpeg" class = "skinpic" alt="A cosmetic dropper bottle with liquid inside" width="200"/>
             <img src="images/condition.jpeg" class = "skinpic" alt="A woman with one eye showing has skin discoloration" width="200"/>
-            <img src="images/difftypes.jpeg" class = "skinpic" alt="A panel of diverse skin tones is shown" width="200"/>
-            <img src="images/doll.jpeg" class = "skinpic" alt="A melanin rich doll is shown with part of her face bare" width="200"/>
-            <img src="images/girl.jpeg" class = "skinpic" alt="A girl is shown juggling several skin care products" width="200"/>
-            <img src="images/miserable.jpeg" class = "skinpic" alt="A woman looks sad while wearing a skin care mask" width="200"/>
-            <img src="images/perfection.jpeg" class = "skinpic" alt="A woman from an ad for perfect skin is shown" width="200"/>
-            <img src="images/snails.jpeg" class = "skinpic" alt="A woman has cosmetic snails on her face" width="200"/>
         </div>
 
         <p>
@@ -73,9 +73,53 @@
             this website is sort of a look at things that have worked for me and resources that
             I have found helpful.
         </p>
+        <div class = "skin">
+            <img src="images/difftypes.jpeg" class = "skinpic" alt="A panel of diverse skin tones is shown" width="200"/>
+            <img src="images/doll.jpeg" class = "skinpic" alt="A melanin rich doll is shown with part of her face bare" width="200"/>
+            <img src="images/girl.jpeg" class = "skinpic" alt="A girl is shown juggling several skin care products" width="200"/>
+        </div>
+        <!-- going to start here -->
+        <h1 id="contact">Contact Me!</h1>
+    <p class = formIntro> Open to any suggestions, questions, etc! Feel free to contact me through this
+        form! </p>
+    <form
+    action="https://formspree.io/f/xayvdybq"
+    method="POST">
+    <label>
+        Name:
+        <input type="text" name="name">
+    </label>
+    <label>
+        Number:
+        <input type="number" name="number">
+    </label>
+    <label>
+        Email:
+        <input type="email" name="email">
+    </label>
+        <span class = "statement">This information will be used to contact you back</span>
+    <div class = "options">
+        <input type="radio" name="contact permission" id="yes" value="yes"> 
+        <label for="yes">Yes</label>
+        <input type="radio" name="contact no permission" id="no" value="no">
+        <label for="no">No</label>
+    </div>
+    <label>
+        Message:<br>
+        <textarea name="message"></textarea>
+    </label>
+    <button type="submit">Sumbit</button>
+    </form>
+        <!-- and end here -->
+        <div class = "skin">
+            <img src="images/miserable.jpeg" class = "skinpic" alt="A woman looks sad while wearing a skin care mask" width="200"/>
+            <img src="images/perfection.jpeg" class = "skinpic" alt="A woman from an ad for perfect skin is shown" width="200"/>
+            <img src="images/snails.jpeg" class = "skinpic" alt="A woman has cosmetic snails on her face" width="200"/>
+        </div>
     </main>
     
     <footer>
+        <i class="fa-thin fa-avocado"></i>
         <p>Ponette Rubio &copy; 2022</p>
     </footer>
 </body>
